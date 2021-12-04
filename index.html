@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+      <center>
+     <div class= "col-xs-12 header_div text-center"><h2>  Sound control animals</h2>  </div>
+    <p class="header_div">Note: Play different sounds like clap, tap and click to make the animals dance </p>  
+    <div class="main_div">   
+      <br> 
+      <button class="btn btn-warning" class="main_div" onclick="startClassifictation();"> Start </button>
+      <br> 
+      <h3 id="result_label"> The sound playing is: </h3>
+      <br> 
+      <h3 id="result_confidence"> Accuracy: </h3>
+      <br>
+      <img src="dog.png" id="animal_1" width="300" height="300">
+      <img src="cat.png" id="animal_2" width="300" height="300">
+      <img src="cow.png" id="animal_3" width="300" height="300">
+     
+    </div>
+    <br> 
+    <br>
+    <div class="class_right_footer"> Developed by-Parth </div>
+    </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+ 
+
